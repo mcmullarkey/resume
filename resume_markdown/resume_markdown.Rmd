@@ -69,7 +69,9 @@ tribble(
 
 # Other Information
 
- * I've published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * I have published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ 
+ * I have written two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
  
  * I stream live data science on [Twitch](https://www.twitch.tv/mcmullarkey)
  
