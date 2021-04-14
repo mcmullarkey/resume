@@ -7,7 +7,7 @@ www: mcmullarkey.github.io
 email: "mullarkey.mike@gmail.com"
 twitter: mcmullarkey
 github: mcmullarkey
-linkedin: mariecurie
+linkedin: mcmullarkey
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Michael is a clinical psychology PhD with expertise in data science and scaling mental health supports."
 output: vitae::twentyseconds
