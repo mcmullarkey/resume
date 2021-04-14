@@ -68,5 +68,5 @@ tribble(
  
  * I [stream live data science on Twitch](https://www.twitch.tv/mcmullarkey)
  
- *
+ * I let my cat Boo help me code because [her code review respects #rstats pipes](https://twitter.com/mcmullarkey/status/1355598013390090246)
 
