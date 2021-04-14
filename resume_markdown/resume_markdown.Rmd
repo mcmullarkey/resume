@@ -37,8 +37,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution,
-  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health",
-  "Consulting Data Scientist", "2019-2021", "Institute for Mental Health Research",
+  "Principal Data Scientist", "2020- ", "Lab for Scalable Mental Health",
+  "Consulting Data Scientist", "2019- ", "Institute for Mental Health Research",
   "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health"
 ) %>% 
   detailed_entries(Position, Year, Institution)
@@ -55,18 +55,23 @@ tribble(
 
 # Skills
 
- * Expert in R and RStudio (tidyverse, tidymodels, torch, shiny, rmarkdown)
- * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras)
+ * Expert in R and RStudio (tidyverse, tidymodels, torch, Shiny, R Markdown)
+ 
+ * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow)
+ 
  * Familiar with SQL
+ 
  * Git and Github
+ 
  * Time Series Forecasting
+ 
  * Multivariate Data Analysis
 
 # Other Information
 
  * I've published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
  
- * I [stream live data science on Twitch](https://www.twitch.tv/mcmullarkey)
+ * I stream live data science on [Twitch](https://www.twitch.tv/mcmullarkey)
  
- * I let my cat Boo help me code because [her code review respects #rstats pipes](https://twitter.com/mcmullarkey/status/1355598013390090246)
+ * My cat Boo helps me code because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
 
