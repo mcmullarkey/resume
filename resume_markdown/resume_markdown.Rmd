@@ -47,9 +47,11 @@ tribble(
 
  * Created an automated screener for suicidality in text data using tree-based and neural network models that saved 20 hours of "by hand" work per week: [Link to Shiny App](https://twitter.com/mcmullarkey) 
  
- * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Pipeline Code on Github](https://github.com/mcmullarkey)
+ * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey)
  
- * Gave invited presentations at national conferences on how to create    reproducible workflows for clinical scientists that resulted in a >90% signup rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
+ * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey)
+ 
+ * Gave invited presentations at national conferences on how to create reproducible workflows for clinical scientists that resulted in a >90% signup rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
 # Skills
 
@@ -62,5 +64,6 @@ tribble(
 
 # Some stuff about me
 
- * I've published [over 20 technical papers that have been cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * I've published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * I [stream on Twitch doing live data science](https://www.twitch.tv/mcmullarkey)
 
