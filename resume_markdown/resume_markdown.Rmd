@@ -1,9 +1,8 @@
 ---
-name: Marie
-surname: Curie
+name: Michael Mullarkey
 position: "Principal Data Scientist"
 address: "Lab for Scalable Mental Health"
-profilepic: mcm_professional_shot.jpg
+profilepic: mcmprofessionalshot.jpg
 www: mcmullarkey.github.io
 email: "mullarkey.mike@gmail.com"
 twitter: mcmullarkey
@@ -32,30 +31,36 @@ tribble(
   detailed_entries(Degree, Year, Institution)
 ```
 
-## Brief Entries
+# Work Experience
 
 ```{r}
+library(tibble)
 tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  ~ Position, ~ Year, ~ Institution,
+  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health",
+  "Consulting Data Scientist", "2019-2021", "Institute for Mental Health Research",
+  "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health"
 ) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+  detailed_entries(Position, Year, Institution)
 ```
+# Projects
+
+ * Created an automated screener for suicidality in text data using tree-based and neural network models that saved 20 hours of "by hand" work per week: [Link to Shiny App](https://twitter.com/mcmullarkey) 
+ 
+ * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Pipeline Code on Github](https://github.com/mcmullarkey)
+ 
+ * Gave invited presentations at national conferences on how to create    reproducible workflows for clinical scientists that resulted in a >90% signup rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
 # Skills
 
- * R (tidyverse, tidymodels, torch, shiny, rmarkdown)
- * Python (NumPy, Pandas, Scikit-learn, Keras, Flask)
- * SQL
- * Git
+ * Expert in R and RStudio (tidyverse, tidymodels, torch, shiny, rmarkdown)
+ * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras)
+ * Familiar with SQL
+ * Git and Github
  * Time Series Forecasting
+ * Multivariate Data Analysis
 
 # Some stuff about me
 
- * I published [over 20 technical papers that have been cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * I've published [over 20 technical papers that have been cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
 
