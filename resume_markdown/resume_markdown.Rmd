@@ -43,9 +43,9 @@ tribble(
 ) %>% 
   detailed_entries(Position, Year, Institution)
 ```
-# Projects
+# Selected Projects
 
- * Created an automated screener for suicidality in text data using tree-based and neural network models that saved 20 hours of "by hand" work per week: [Link to Shiny App](https://twitter.com/mcmullarkey) 
+ * Created an automated screener for suicidality in text data using tree-based and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://twitter.com/mcmullarkey) 
  
  * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey)
  
@@ -62,7 +62,7 @@ tribble(
  * Time Series Forecasting
  * Multivariate Data Analysis
 
-# Some stuff about me
+# Other Information
 
  * I've published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
  * I [stream on Twitch doing live data science](https://www.twitch.tv/mcmullarkey)
