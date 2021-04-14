@@ -51,7 +51,7 @@ tribble(
  
  * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey)
  
- * Gave invited presentations at national conferences on how to create reproducible workflows for clinical scientists that resulted in a >90% signup rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
+ * Gave invited presentations at national conferences on how to create reproducible workflows for clinical scientists that resulted in a >90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
 # Skills
 
@@ -65,5 +65,8 @@ tribble(
 # Other Information
 
  * I've published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
- * I [stream on Twitch doing live data science](https://www.twitch.tv/mcmullarkey)
+ 
+ * I [stream live data science on Twitch](https://www.twitch.tv/mcmullarkey)
+ 
+ *
 
