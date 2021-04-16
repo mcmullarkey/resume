@@ -47,11 +47,13 @@ tribble(
 
  * Created an automated screener for suicidality in text data using boosted tree and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://github.com/mcmullarkey) 
  
- * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey)
+ * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey/time_series_prediction_pipeline)
+ 
+ * Designed, engineered, and analyzed multiple nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
  
  * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey)
  
- * Gave invited presentations at national conferences on how to create reproducible workflows for clinical scientists that resulted in a >90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
+ * Gave invited presentations at national conferences on how to create reproducible workflows that resulted in a >90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
 # Skills
 
@@ -72,6 +74,8 @@ tribble(
  * I have published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
  
  * I have written two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
+ 
+ * I co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the #1 new release in the teen/young adult mental health category on Amazon
  
  * I stream live data science on [Twitch](https://www.twitch.tv/mcmullarkey)
  
