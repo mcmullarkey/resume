@@ -79,7 +79,7 @@ tribble(
  
  * I stream live data science on [Twitch](https://www.twitch.tv/mcmullarkey)
  
- * I created this resume using the vitae package in R, and my code is available [here](https://github.com/mcmullarkey/resume)
+ * I created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
  
  * My cat Boo helps me code because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
 
