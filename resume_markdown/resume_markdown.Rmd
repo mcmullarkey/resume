@@ -45,7 +45,7 @@ tribble(
 ```
 # Selected Projects
 
- * Created an automated screener for suicidality in text data using boosted tree and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://github.com/mcmullarkey) 
+ * Created an automated screener for suicidality in text data using boosted tree and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://github.com/mcmullarkey/risk_screener) 
  
  * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey/time_series_prediction_pipeline)
  
