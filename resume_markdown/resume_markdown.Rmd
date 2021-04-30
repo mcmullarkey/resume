@@ -51,7 +51,7 @@ tribble(
  
  * Designed, engineered, and analyzed multiple nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
  
- * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey)
+ * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey/lsmh_data_dashboard) | [Link to Shiny App](https://mcmullarkey.shinyapps.io/LSMH_Data_Dashboard/)
  
  * Gave invited presentations at national conferences on how to create reproducible workflows that resulted in a >90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
