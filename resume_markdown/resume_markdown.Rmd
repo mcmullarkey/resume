@@ -1,6 +1,6 @@
 ---
 name: Michael Mullarkey
-position: "Principal Data Scientist"
+position: "Director of Data Science"
 address: "Lab for Scalable Mental Health"
 profilepic: mcmprofessionalshot.jpg
 www: mcmullarkey.github.io
@@ -37,11 +37,12 @@ tribble(
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution,
-  "Principal Data Scientist", "2020- ", "Lab for Scalable Mental Health",
-  "Consulting Data Scientist", "2019- ", "Institute for Mental Health Research",
+  "Director of Data Science", "2021-", "Lab for Scalable Mental Health",
+  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health",
+  "Consulting Data Scientist", "2019-2020", "Institute for Mental Health Research",
   "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health"
 ) %>% 
-  detailed_entries(Position, Year, Institution)
+  detailed_entries(what = Position, when = Year, with = Institution,)
 ```
 # Selected Projects
 
@@ -49,7 +50,7 @@ tribble(
  
  * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey/time_series_prediction_pipeline)
  
- * Designed, engineered, and analyzed multiple nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
+ * Designed, engineered, and analyzed nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
  
  * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey/lsmh_data_dashboard) | [Link to Shiny App](https://mcmullarkey.shinyapps.io/LSMH_Data_Dashboard/)
  
@@ -71,13 +72,14 @@ tribble(
 
 # Other Information
 
- * I have published [>20 technical papers, cited nearly 1,000 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * I have published [>20 technical papers, cited > 1,300 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
  
  * I have written two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
  
  * I co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the #1 new release in the teen/young adult mental health category on Amazon
  
- * I stream live data science on [Twitch](https://www.twitch.tv/mcmullarkey)
+ * I placed 2nd in the regular season of SLICED, a live-streamed data  
+ visualization and machine learning competition on [Twitch](https://www.notion.so/SLICED-Show-c7bd26356e3a42279e2dfbafb0480073)
  
  * I created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
  
