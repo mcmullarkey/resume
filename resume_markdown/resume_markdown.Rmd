@@ -58,7 +58,7 @@ tribble(
 
 # Skills
 
- * Expert in R and RStudio (tidyverse, tidymodels, torch, Shiny, R Markdown)
+ * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
  
  * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow)
  
