@@ -60,7 +60,7 @@ tribble(
 
  * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
  
- * Expert in Experimentation, Multivariate Data Analysis, Regression, and Classification
+ * Expert in Experimentation, Multivariate Data Analysis, and Regression
  
  * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow)
  
@@ -83,5 +83,5 @@ tribble(
  
  * Created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
  
- * Get assistance from my cat Boo because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
+ * Got assistance from my cat Boo because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
 
