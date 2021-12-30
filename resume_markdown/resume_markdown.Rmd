@@ -60,28 +60,28 @@ tribble(
 
  * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
  
+ * Expert in Experimentation, Multivariate Data Analysis, Regression, and Classification
+ 
  * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow)
  
  * Familiar with SQL
  
- * Git and Github
+ * Familiar with Git and Github
  
- * Time Series Forecasting
- 
- * Multivariate Data Analysis
+ * Familiar with Time Series Forecasting
 
 # Other Information
 
- * I have published [>20 technical papers, cited > 1,300 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
+ * Published [>20 technical papers, cited > 1,300 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
  
- * I have written two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
+ * Wrote two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
  
- * I co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the #1 new release in the teen/young adult mental health category on Amazon
+ * Co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the #1 new release in the teen/young adult mental health category on Amazon
  
- * I placed 2nd in the regular season of SLICED, a live-streamed data  
+ * Placed 2nd in the regular season of SLICED, a live-streamed data  
  visualization and machine learning competition on [Twitch](https://www.notion.so/SLICED-Show-c7bd26356e3a42279e2dfbafb0480073)
  
- * I created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
+ * Created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
  
- * My cat Boo helps me code because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
+ * Get assistance from my cat Boo because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
 
