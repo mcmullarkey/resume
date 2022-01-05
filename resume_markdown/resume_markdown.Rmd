@@ -60,15 +60,17 @@ tribble(
 
  * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
  
- * Expert in Experimentation, Multivariate Data Analysis, and Regression
+ * Expert in experimentation, multivariate data analysis, and regression
  
- * Familiar with Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow)
+ * Expert in managing multiple simultaneous projects 
+ 
+ * Familiar with Python (numpy, pandas, scikit-learn, keras, TensorFlow)
  
  * Familiar with SQL
  
- * Familiar with Git and Github
+ * Familiar with git and Github
  
- * Familiar with Time Series Forecasting
+ * Familiar with time series forecasting
 
 # Other Information
 
