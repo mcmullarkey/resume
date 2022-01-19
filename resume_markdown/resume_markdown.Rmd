@@ -5,9 +5,7 @@ address: "Lab for Scalable Mental Health"
 profilepic: mcmprofessionalshot.jpg
 www: mcmullarkey.github.io
 email: "mullarkey.mike@gmail.com"
-twitter: mcmullarkey
 github: mcmullarkey
-linkedin: mcmullarkey
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Michael is a clinical psychology PhD with expertise in data science and scaling mental health supports."
 output: vitae::twentyseconds
@@ -16,6 +14,20 @@ output: vitae::twentyseconds
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+```
+
+# Work Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~Description,
+  "Director of Data Science", "2021-", "Lab for Scalable Mental Health", "Lead all data science efforts",
+  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health", "Build machine learning models",
+  "Consulting Data Scientist", "2019-2020", "Institute for Mental Health Research", "Create time series forecasting data products",
+  "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health", "Design & optimize A/B testing"
+) %>% 
+  detailed_entries(what = Position, when = Year, with = Institution, why = Description)
 ```
 
 # Education
@@ -31,59 +43,33 @@ tribble(
   detailed_entries(Degree, Year, Institution)
 ```
 
-# Work Experience
-
-```{r}
-library(tibble)
-tribble(
-  ~ Position, ~ Year, ~ Institution,
-  "Director of Data Science", "2021-", "Lab for Scalable Mental Health",
-  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health",
-  "Consulting Data Scientist", "2019-2020", "Institute for Mental Health Research",
-  "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health"
-) %>% 
-  detailed_entries(what = Position, when = Year, with = Institution,)
-```
 # Selected Projects
 
- * Created an automated screener for suicidality in text data using boosted tree and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://github.com/mcmullarkey/risk_screener) 
- 
- * Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey/time_series_prediction_pipeline)
- 
- * Designed, engineered, and analyzed nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
- 
- * Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey/lsmh_data_dashboard) | [Link to Shiny App](https://mcmullarkey.shinyapps.io/LSMH_Data_Dashboard/)
- 
- * Gave invited presentations at national conferences on how to create reproducible workflows that resulted in a >90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
+-   Created an automated screener for suicidality in text data using boosted tree and neural network models that saved 20 hours of "by hand" work per week: [Link to Code on Github](https://github.com/mcmullarkey/risk_screener)
+
+-   Developed a scalable time series forecasting pipeline using tsfresh feature engineering and a random forest algorithm versatile enough to be used across multiple organizations: [Link to Code on Github](https://github.com/mcmullarkey/time_series_prediction_pipeline)
+
+-   Designed, engineered, and analyzed nationwide (USA) A/B tests for scalable mental health supports that improved mental health 3 months later in teenagers: [Link to Code on OSF](https://osf.io/uhzdx/)
+
+-   Built a Shiny dashboard to track available data for mission-critical projects according to stakeholder identified criteria, used at least once weekly within the organization: [Link to Code on Github](https://github.com/mcmullarkey/lsmh_data_dashboard) \| [Link to Shiny App](https://mcmullarkey.shinyapps.io/LSMH_Data_Dashboard/)
+
+-   Gave invited presentations at national conferences on how to create reproducible workflows that resulted in a \>90% sign-up rate for reproducible workflow tools: [Link to Presentation Slides](https://osf.io/yjc3u/)
 
 # Skills
 
- * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
- 
- * Expert in experimentation, multivariate data analysis, and regression
- 
- * Expert in managing multiple simultaneous projects 
- 
- * Familiar with Python (numpy, pandas, scikit-learn, keras, TensorFlow)
- 
- * Familiar with SQL
- 
- * Familiar with git and Github
- 
- * Familiar with time series forecasting
+-   Languages/Environments: R/RStudio (tidyverse, tidymodels, ggplot2,  
+Shiny, R Markdown), Python (numpy, pandas, scikit-learn, keras,  
+TensorFlow), SQL, git, Github, Dart, Flutter
+-   Techniques: multivariate data analysis, regression, classification, time series forecasting, experimentation, machine learning
+-   Soft Skills: Managing multiple simultaneous projects, communicating with technical and non-technical stakeholders, translating complex business problems into actionable data science products
 
 # Other Information
 
- * Published [>20 technical papers, cited > 1,300 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
- 
- * Wrote two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded >1,500 times (including a Dutch translation)
- 
- * Co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the #1 new release in the teen/young adult mental health category on Amazon
- 
- * Placed 2nd in the regular season of SLICED, a live-streamed data  
- visualization and machine learning competition on [Twitch](https://www.notion.so/SLICED-Show-c7bd26356e3a42279e2dfbafb0480073)
- 
- * Created this resume using the vitae package in R, code available [here](https://github.com/mcmullarkey/resume)
- 
- * Got assistance from my cat Boo because [her code review respects piping](https://twitter.com/mcmullarkey/status/1355598013390090246)
+-   Published [\>20 technical papers, cited \> 1,300 times](https://scholar.google.com/citations?user=ncGnGSEAAAAJ&hl=en)
 
+-   Wrote two [open source](https://osf.io/hzs9m/) mental health [treatment manuals](https://osf.io/2v8k3/) that have been downloaded \>1,500 times (including a Dutch translation)
+
+-   Co-wrote a [mental health workbook for teens](https://www.amazon.com/Growth-Mindset-Workbook-Teens-Challenges/dp/1684035570/ref=zg_bsnr_171183_1?_encoding=UTF8&psc=1&refRID=ZY6MTMP3FJFAFB3EXDC6) that debuted as the \#1 new release in the teen/young adult mental health category on Amazon
+
+-   Placed 2nd in the regular season of SLICED, a live-streamed data\
+    visualization and machine learning competition on [Twitch](https://www.notion.so/SLICED-Show-c7bd26356e3a42279e2dfbafb0480073)
