@@ -21,13 +21,13 @@ library(vitae)
 ```{r}
 library(tibble)
 tribble(
-  ~ Position, ~ Year, ~ Institution, ~Description,
-  "Director of Data Science", "2021-", "Lab for Scalable Mental Health", "Lead all data science efforts",
-  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health", "Build machine learning models",
-  "Consulting Data Scientist", "2019-2020", "Institute for Mental Health Research", "Create time series forecasting data products",
-  "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health", "Design & optimize A/B testing"
+  ~ Position, ~ Year, ~ Institution,
+  "Director of Data Science", "2021-", "Lab for Scalable Mental Health",
+  "Principal Data Scientist", "2020-2021", "Lab for Scalable Mental Health",
+  "Consulting Data Scientist", "2019-2020", "Institute for Mental Health Research",
+  "Data Scientist", "2019-2020 ", "Lab for Scalable Mental Health",
 ) %>% 
-  detailed_entries(what = Position, when = Year, with = Institution, why = Description)
+  detailed_entries(what = Position, when = Year, with = Institution)
 ```
 
 # Education
@@ -57,11 +57,21 @@ tribble(
 
 # Skills
 
--   Languages/Environments: R/RStudio (tidyverse, tidymodels, ggplot2,  
-Shiny, R Markdown), Python (numpy, pandas, scikit-learn, keras,  
-TensorFlow), SQL, git, Github, Dart, Flutter
--   Techniques: multivariate data analysis, regression, classification, time series forecasting, experimentation, machine learning
--   Soft Skills: Managing multiple simultaneous projects, communicating with technical and non-technical stakeholders, translating complex business problems into actionable data science products
+ * Expert in R/RStudio (tidyverse, tidymodels, ggplot2, Shiny, R Markdown)
+ 
+ * Expert in experimentation, regression, and multilevel models
+ 
+ * Expert in managing multiple simultaneous projects 
+ 
+ * Familiar with Python (numpy, pandas, scikit-learn, keras, TensorFlow)
+ 
+ * Familiar with causal inference (DAGs, propensity score matching)
+ 
+ * Familiar with SQL
+ 
+ * Familiar with git and Github
+ 
+ * Familiar with time series forecasting
 
 # Other Information
 
